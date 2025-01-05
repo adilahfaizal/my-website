@@ -1,0 +1,234 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+    <style>
+        /* About me page */
+        .biodata-table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .biodata-table th,
+        .biodata-table td {
+            border: 2px solid black;
+            padding: 30px;
+            text-align: left;
+        }
+        .biodata-table th {
+            background-color: rgb(231, 212, 150);
+            color: rgb(51, 7, 21);
+            font-size: 1.2em;
+        }
+        .biodata-table td {
+            background-color: #fff0f5;
+        }
+        .profile-picture {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 250px;
+            height: 300px;
+            border: 2px solid black;
+        }
+        a {
+            color: black;
+        }
+
+        /* Make sure bullets are visible */
+        ul {
+            list-style-type: disc; /* Ensures bullets are shown */
+            margin-left: 20px; /* Adds indentation */
+            padding-left: 20px; /* Adds spacing to the left */
+        }
+        li {
+            margin-bottom: 10px; /* Adds space between list items */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"> <a href="topnav">Dila Website</a> </div>
+            <ul>
+                <button><a href="welcomepage.html">Home</a></button>
+                <button><a href="me.html">Biodata</a></button>
+                <button><a href="education.html">Education</a></button>
+                <button><a href="family.html">Family</a></button>
+                <button><a href="bowling.html">Bowling</a></button>
+                <button><a href="media.html">Gallery</a></button>
+            </ul>
+        </div>
+    </nav>
+
+            <td>
+                <div align="center">
+                    <h1>MY BIODATA</h1> 
+                </div>
+                <img src="images/me 2.jpeg" alt="Profile Picture" class="profile-picture">
+                <div align="center">
+                    <table class="biodata-table">
+                        <tr>
+                            <th>Full Name</th>
+                            <td>Siti Nurul Adilah binti Mohd Faizal</td>
+                        </tr>
+                        <tr>
+                            <th>Date of Birth</th>
+                            <td>05 September 2004</td>
+                        </tr>
+                        <tr>
+                            <th>Gender</th>
+                            <td>Female</td>
+                        </tr>
+                        <tr>
+                            <th>Nationality</th>
+                            <td>Malaysian</td>
+                        </tr>
+                        <tr>
+                            <th>Contact</th>
+                            <td>
+                                <a href="mailto:sitinuruladilah@gmail.com?subject=Problem Statement" accesskey="1">sitinuruladilah@gmail.com</a> 
+                                OR 
+                                <a href="tel:+60124160644" accesskey="2">012-4160644</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Work Experience</th>
+                            <td>
+                                <ul>
+                                <li><strong>Promoter</strong>, 2021<br>
+                                <em>Parkson Alamanda.</em><br>
+                                </li>
+                                <li><strong>Retail Assistant</strong>, 2023<br>
+                                <em>FOS IOI Citi Mall, Putrajaya</em>
+                                </li>
+                                <li><strong>Security Event Concert</strong>, 2023<br>
+                                <em>Zepp KL, Stadium Melawati Shah Alam & Sepang Circuit.</em><br>
+                                </li>
+                                <li><strong>Intern Diploma</strong>, 2024<br>
+                                <em>Opensoft Technologies, Putrajaya.</em>
+                                </li>
+                                <li><strong>Watsons Event Concourse</strong>, 2024<br>
+                                <em>IOI City Mall Putrajaya, Starling Mall Petaling Jaya, TRX Mall.</em>
+                                </li>
+
+                            </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Hobbies</th>
+                            <td>
+                                <!-- Updated list with visible bullets -->
+                                <ul>
+                                    <li>Hiking</li>
+                                    <li>Playing Bowling</li>
+                                    <li>Karaoke</li>
+                                    <li>Reading Book</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+
+    <div align="center">
+        <div class="Embedded">
+            <h1> Favourite Movie </h1>
+            <div class="embedvideo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EodWwczRIe4?si=LOZV2YFWMA2P0Uxx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h1> Favourite Song </h1>
+            <div class="home-audio">
+                <audio controls autoplay loop>
+                    <source src="audio/Demons   Imagine Dragon.mp3" type="audio/mpeg">
+                </audio> <br>
+                <div class="caption"> Demons - Imagine Dragons </div>
+            </div>
+            <audio controls autoplay loop hidden="true">
+                <source src="audio/Koji Kondo – Super Mario World - Cast & Credits.mp3" hidden="true">
+            </audio>
+        </div>
+    </div>
+    <br>
+    <div align="center">
+        <a href="#top"><img src="images/top.png" width="40px"></a></div>
+    <br>
+
+    <footer style="background-color:#D98880; color: #fff; padding: 0; font-size: 14px;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap;">
+          <!-- Clock Section (with Current Time, Date, and Day) -->
+          <div style="flex: 1 1 200px; padding: 0 5px; text-align: center;">
+            <h4 style="color: #fff;">Current Time & Date</h4>
+            <div id="clock" style="font-size: 30px; font-weight: bold; color: #fff;"></div>
+            <div id="date" style="font-size: 20px; color: #fff;"></div>
+          </div>
+      
+          <!-- Contact Section -->
+          <div style="flex: 1 1 200px; padding: 0 5px; text-align: center;">
+            <h4 style="color: #fff; margin-bottom: 20px;">Contact Us</h4>
+            <p style="color: white;">Email: sitnuruladilah@gmail.com</p>
+            <p style="color: white;">Phone: 012-4160644</p>
+          </div>
+      
+          <!-- Social Media Section -->
+          <div style="flex: 1 1 200px; padding: 0 5px; text-align: center;">
+            <h4 style="color: #fff; margin-bottom: 20px;">Follow Us</h4>
+            <ul style="list-style: none; padding: 0; display: flex; justify-content: center;">
+              <li style="margin: 0px;">
+                <a href="https://www.tiktok.com/qtiegurlll/" target="_blank">
+                  <img src="images/tiktok.png" width="40px" alt="TikTok">
+                </a>
+              </li>
+              <li style="margin: 0px;">
+                <a href="https://www.instagram.com/adilahfaizl/" target="_blank">
+                  <img src="images/insta.jpg" width="40px" alt="Instagram">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      
+        <!-- Bottom Section (Copyright) -->
+        <div style="text-align: center; margin-top: 40px; padding: 5px 0; background-color: crimson; font-size: 12px;">
+          <p>&copy; 2025 Dila Website. All rights reserved.</p>
+        </div>
+      </footer>
+      
+      <script>
+      // Function to display the current time, date, and day
+      function updateClock() {
+        const now = new Date();
+        
+        // Format time as HH:MM:SS
+        const time = now.toLocaleTimeString();
+        
+        // Format date as "Day, Month Day, Year"
+        const date = now.toLocaleDateString('en-US', {
+          weekday: 'long',
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        });
+      
+        // Display time and date in the appropriate elements
+        document.getElementById("clock").textContent = time;
+        document.getElementById("date").textContent = date;
+      }
+      
+      // Update the clock every second
+      setInterval(updateClock, 1000);
+      
+      // Initial call to display the time and date immediately on page load
+      updateClock();
+      </script>    
+      </footer>
+      </head>
+      </body>
+      </html>
